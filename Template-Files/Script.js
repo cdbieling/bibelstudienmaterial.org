@@ -47,7 +47,8 @@ _paq.push(['enableLinkTracking']);
     g.defer = true;
     g.src = u + 'matomo.js';
     s.parentNode.insertBefore(g, s);
-})(); < /script> < noscript > < p > < img src = "//piwik.dbieling.de/matomo.php?idsite=4&amp;rec=1"
+})(); < /script>  < noscript > < p > < img src = "/ / piwik.dbieling.de / matomo.php ? idsite = 4 & amp;
+rec = 1 "
 style = "border:0;"
 alt = "" / > < /p></noscript >
     <!-- End Matomo Code -->
