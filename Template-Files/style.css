@@ -102,6 +102,12 @@ nav#ubermenu-main-3 {
 
 /*** Custom DB-Chapter-Button Customized***/
 
+
+/*** Button 1 ***/
+
+
+/*** Standard Button ***/
+
 body .et_pb_section .db_chapter_button_1 {
     border-color: #7ebec5;
     align-content: space-around;
@@ -113,11 +119,70 @@ body .et_pb_section .db_chapter_button_1:hover {
     border-color: #fff;
     color: #fff;
 }
-body .et_pb_section .db_chapter_wrapper {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 15px;
-    margin-top: 10px;
+@media (min-width: 768px) {
+    body .et_pb_section .db_chapter_wrapper {
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 767px) {
+    .db_chapter_wrapper {
+        float: left;
+        margin-right: 5px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+}
+
+/*** Custom DB-Chapter-Button Customized***/
+
+
+/*** Button 2 ***/
+
+
+/*** Standard Button ***/
+
+@media (max-width: 767px) {
+    .db_chapter_button_2 {
+        border-color: #7ebec5;
+        align-content: space-around;
+        padding: .2em .5em .2em .5em;
+        box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.3);
+    }
+    body .et_pb_section .db_chapter_button_2:hover {
+        padding: .2em .5em .2em .5em;
+        border-color: #fff;
+        color: #fff;
+        background-color: #7ebec5;
+    }
+    body .et_pb_section .db_chapter_button_2.db_bt_2_9 {
+        padding: .2em .78em .2em .78em;
+    }
+    body .et_pb_section .db_chapter_button_2.db_bt_2_9:hover {
+        padding: .2em .78em .2em .78em;
+    }
+}
+@media (min-width:768px) {
+    body .et_pb_section .db_chapter_button_2 {
+        border-color: #7ebec5;
+        align-content: space-around;
+        padding: 0.3em 1.35em 0.3em 1.35em;
+        box-shadow: 2px 2px 5px -2px rgba(0, 0, 0, 0.3);
+    }
+    body .et_pb_section .db_chapter_button_2:hover {
+        padding: 0.3em 2em 0.3em 0.7em;
+        border-color: #fff;
+        color: #fff;
+        background-color: #7ebec5;
+    }
+    body .et_pb_section .db_chapter_button_2.db_bt_2_9:hover {
+        padding: 0.3em 2.2em 0.3em 1.1em;
+    }
+    body .et_pb_section .db_chapter_button_2.db_bt_2_9 {
+        padding: 0.3em 1.63em 0.3em 1.63em;
+    }
 }
 
 /* Breadcrumbs -> Structured */
@@ -140,7 +205,40 @@ ol.db_breadcrumbs_list li span::before {
 ol.db_breadcrumbs_list li span::before {
     padding-left: 2px;
 }
+.db_breadcrumbs_list.db_bc a:hover {
+    color: #417379;
+}
 .db_breadcrumbs_list.db_bc_white a:hover {
+    color: white;
+}
+.db_breadcrumbs_list.db_bc_dark {
+    color: white;
+}
+.db_breadcrumbs_list.db_bc_dark a:hover {
+    color: white;
+    font-weight: bold;
+}
+.db_breadcrumbs_list.db_bc_dark li a {
+    color: white;
+}
+
+/*** Depreciated ***/
+
+.db_breadcrumbs_list.db_bc_dark_color {
+    color: white;
+}
+.db_breadcrumbs_list.db_bc_dark_color a:hover {
+    color: white;
+    font-weight: bold;
+}
+.db_breadcrumbs_list.db_bc_dark_color li a {
+    color: white;
+}
+.db_breadcrumbs_list.db_bc_dark_color li a:hover {
+    color: white;
+    font-weight: bold;
+}
+ol.db_breadcrumbs_list.db_bc_dark_color li:last-of-type {
     color: white;
 }
 ol.db_breadcrumbs_list li:last-of-type {
@@ -157,4 +255,76 @@ ol.db_breadcrumbs_list li:last-of-type {
 .db_footer_sub {
     padding-bottom: 0.3em !important;
     font-weight: bold;
+}
+.db_chapter_wrapper.deactivated {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+/*** Tablepress Customisation ***/
+
+.db_table_border_center.tablepress tbody td {
+    border: 2px solid #ddd;
+}
+.db_table_head_bg.tablepress tbody tr.row-1 {
+    background-color: #ececece6;
+}
+.db_col_3 tbody td {
+    width: 33%;
+}
+.db_col_4 tbody td {
+    width: 25%;
+}
+
+/*** Chapter-Tabs ***/
+
+@media (max-width: 767px) {
+    .tabs_bible.tabs_overview.tabs_many li {
+        float: left;
+        border-right: 1px solid #D9D9D9;
+        width: calc(100% / 6);
+        text-align: center;
+        min-width: 40px;
+    }
+    .tabs_bible.tabs_overview.tabs_many li a {
+        display: block;
+        padding: 4px 0;
+    }
+}
+@media (min-width: 767px) {
+    .tabs_bible.tabs_overview.tabs_many li {
+        min-width: 77px;
+    }
+}
+
+/***** Chapter-Tabs***/
+
+.tabs_bible ul.et_pb_tabs_controls:after, .tabs_bible_chapter ul.et_pb_tabs_controls:after {
+    border-top: none;
+}
+.tabs_bible ul.et_pb_tabs_controls, .tabs_bible_chapter ul.et_pb_tabs_controls {
+    background: none;
+}
+.tabs_bible ul.et_pb_tabs_controls li, .tabs_bible_chapter ul.et_pb_tabs_controls li {
+    border-bottom: 1px solid #D9D9D9;
+}
+.tabs_bible .et_pb_tabs_controls li:not(.et_pb_tab_active):last-child {
+    border-right: 1px solid #D9D9D9;
+}
+.tabs_bible_chapter .et_pb_tabs_controls li:not(.et_pb_tab_active) {
+    border: 1px solid #D9D9D9;
+}
+.tabs_bible_chapter.et_pb_tabs, .tabs_bible_chapter.et_pb_wc_tabs {
+    border: none;
+}
+.tabs_bible_chapter .et_pb_all_tabs {
+    border: 1px solid #D9D9D9;
+}
+
+/*** removing padding from table ***/
+
+.tabs_bible_chapter .et_pb_tab.et_pb_tab_1, .tabs_bible_chapter .et_pb_tab.et_pb_tab_2 {
+    padding: 0px;
 }
