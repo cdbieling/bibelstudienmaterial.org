@@ -1,0 +1,36 @@
+/*** DB MENU ***/
+
+
+/***Col 1 db_logo_section  ***/
+
+.db_pb_column.db_pb_column_1_5.db_logo_column {
+    width: 85px !important;
+    margin-left: 160px !important;
+    margin-right: 0;
+    float: left;
+    position: relative;
+    display: block;
+}
+
+/***Col 2 db_menu_section  ***/
+
+.db_pb_column.db_pb_column_3_5.db_menu_column {
+    width: calc(80% - 245px)!important;
+    /*margin-left: 160px !important;*/
+    margin-right: 0;
+    padding-right: 3vw;
+    min-height: 40px;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+/*** Col 3 db_search_section ***/
+
+.db_pb_column.db_pb_column_1_5.db_search_column {
+    width: 20%;
+    float: left;
+    right: 0;
+    display: block;
+    position: relative;
+}
