@@ -1,0 +1,38 @@
+<div class="db_pb_column db_pb_column_1_5 db_logo_column"> 
+    <div class="db_logo_section">
+        <a href="/">
+            <span class="db_pb_image_wrap ">
+            <img src="/wp-content/uploads/2022/11/Logo_bibelstudienmaterial.svg" alt="Logo Bibelstudienmaterial.org" title="Logo bibelstudienmaterial.org" width="90px" height="50px">
+            </span>
+        </a>
+    </div>
+</div>
+<div class="db_pb_column db_pb_column_3_5 db_menu_column">
+    <div class="db_menu_section">
+        <span class="db_pb_code_wrap">
+            [ubermenu config_id="main"]
+        </span>
+    </div>
+</div>
+<div class="db_pb_column db_pb_column_3_5 db_menu_column_resp">
+    <div class="db_menu_section">
+        <span class="db_pb_code_wrap">
+            [ubermenu config_id="main" menu="161"]
+        </span>
+    </div>
+</div>
+<div class="db_pb_column db_pb_column_1_5 db_search_column">
+    <div class="db_search_section">
+        <span class="db_pb_code_wrap">
+            <!--<img src="/wp-content/uploads/2017/01/logo_bibelstudienmaterial.png" alt="" title="Logo bibelstudienmaterial.org">-->
+            [wd_asp id=1]
+        </span>
+    </div>
+</div>
+<div class="db_pb_column db_pb_column_1_5 db_search_column_resp">
+    <div class="db_search_section_resp">
+        <span class="db_pb_code_wrap">
+            [wd_asp id=1]
+        </span>
+    </div>
+</div>

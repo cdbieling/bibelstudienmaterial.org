@@ -1,0 +1,19 @@
+@media only screen and (max-width: 768px) { div#ajaxsearchprores1_2 {
+    left: 2.5% !important;
+    width: 95% !important;
+    top: 79px !important;
+}
+}
+@media only screen and (max-width: 979px) and (min-width: 768px) { 
+div#ajaxsearchprores1_1.vertical {
+    left: 50% !important;
+    width: 50% !important;
+    top: 66px !important;
+}
+}
+@media only screen and (min-width: 980px) { div#ajaxsearchprores1_1.vertical {
+    left: 60% !important;
+    width: 40% !important;
+    top: 66px !important;
+}
+}
